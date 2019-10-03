@@ -1,0 +1,10 @@
+/target
+**/*.rs.bk
+Cargo.lock
+/cabi/simple.h
+/py/.eggs
+/py/build
+/py/dist
+/py/simple.egg-info
+/py/simple/_native__lib.so
+/py/pypirc

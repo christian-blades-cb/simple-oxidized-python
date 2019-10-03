@@ -1,0 +1,17 @@
+[package]
+name = "cabi"
+version = "0.1.0"
+authors = ["Christian Blades <cblades@pindrop.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+simple-rs = { path = "../simple-rs" }
+
+[build-dependencies]
+cbindgen = { version = "0.9", default-features = false }
+
+[lib]
+crate-type = ["cdylib"]
+name = "simple"
